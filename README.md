@@ -5,3 +5,7 @@
 
 
 2. [Full Subractor](./Full%20Subractor)
+
+3. [Mux](./Mux)
+
+4. [Demux](./Demux)
