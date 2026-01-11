@@ -12,8 +12,6 @@ output y
     
 assign y = s ? d1 : d0; 
 endmodule
-
-endmodule
 ```
 
 </details>
@@ -48,7 +46,7 @@ endmodule
 <details open>
 <summary>mux.xdc</summary>
 
-```tcl
+```xdc
 set_property -dict { PACKAGE_PIN V17 IOSTANDARD LVCMOS33 } [get_ports s]
 set_property -dict { PACKAGE_PIN V16 IOSTANDARD LVCMOS33 } [get_ports d0]
 set_property -dict { PACKAGE_PIN W16 IOSTANDARD LVCMOS33 } [get_ports d1]

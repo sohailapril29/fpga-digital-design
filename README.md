@@ -9,3 +9,5 @@
 3. [Mux](./Mux)
 
 4. [Demux](./Demux)
+
+5. [Demux](./Encoder)

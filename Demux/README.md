@@ -12,8 +12,6 @@ output wire d0,d1
     
     assign {d0,d1} = s ? {1'b0,in} : {in,1'b0};
 endmodule
-
-endmodule
 ```
 
 </details>
@@ -49,7 +47,7 @@ endmodule
 <details open>
 <summary>demux.xdc</summary>
 
-```tcl
+```xdc
 set_property -dict { PACKAGE_PIN V17 IOSTANDARD LVCMOS33 } [get_ports s]
 set_property -dict { PACKAGE_PIN V16 IOSTANDARD LVCMOS33 } [get_ports in]
 
