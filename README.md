@@ -5,18 +5,18 @@
 
 2. [FULL SUBRACTOR](./Full%20Subractor)
 
-3. [MUX](./Mux)
+3. [MUX](./MUX)
 
-4. [DEMUX](./Demux)
+4. [DEMUX](./DEMUX)
 
-5. [ENCODER](./Encoder)
+5. [ENCODER](./ENCODER)
 
-6. [DECODER](./Decoder)
+6. [DECODER](./DECODER)
 
-7. [MAGNITUDE](./Magnitude)
+7. [MAGNITUDE](./MAGNITUDE)
 
-8. [D_FLIP_FLOP](./d_flip_flop)
+8. [D_FLIP_FLOP](./D%20FLIP%20FLOP)
 
-9. [FOUR_BIT_REGISTER](./FOUR_BIT_REGISTER)
+9. [FOUR_BIT_REGISTER](./FOUR%20BIT%20REGISTER)
 
-10. [ALU](./alu)
+10. [ALU](./ALU)
