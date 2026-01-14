@@ -14,3 +14,9 @@
 6. [Decoder](./Decoder)
 
 7. [Magnitude](./Magnitude)
+
+8. [D_Flip_Flop](./d_flip_flop)
+
+9. [4_bit_register](./4_bit_register)
+
+10. [ALU](./alu)
