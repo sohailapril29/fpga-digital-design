@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 12.01.2026 21:10:32
+// Create Date: 14.01.2026 10:56:09
 // Design Name: 
-// Module Name: tb_magnitude
+// Module Name: top
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,26 +20,17 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module tb_magnitude();
-reg [3:0] a,b;
-wire a_greater_b;
-wire a_lesser_b;
-wire a_equal_b;
-integer i,j;
-magnitude dut (a,b,a_greater_b,a_lesser_b,a_equal_b);
-
-initial begin
-for(i=0;i<16;i=i+1) begin
-for(j=0;j<16;j=j+1) begin
-a=i[3:0];
-b=j[3:0];
-#10;
-
-
-$display("%0b %0b %0b %0b %0b",a,b,a_greater_b,a_lesser_b,a_equal_b);
-end
-end
-$finish;
-end
-
+module top(
+input wire [7:0] sw,
+output wire [2:0] led
+    );
+    
+    magnitude dut(
+    .a(sw[3:0]),
+    .b(sw[7:4]),
+    .a_greater_b(led[0]),
+    .a_lesser_b(led[1]),
+    .a_equal_b(led[2])
+    
+    );
 endmodule
