@@ -1,22 +1,22 @@
 # fpga-digital-design
 
 
-1. [Full Adder](./Full%20Adder)
+1. [FULL ADDER](./Full%20Adder)
 
-2. [Full Subractor](./Full%20Subractor)
+2. [FULL SUBRACTOR](./Full%20Subractor)
 
-3. [Mux](./Mux)
+3. [MUX](./Mux)
 
-4. [Demux](./Demux)
+4. [DEMUX](./Demux)
 
-5. [Encoder](./Encoder)
+5. [ENCODER](./Encoder)
 
-6. [Decoder](./Decoder)
+6. [DECODER](./Decoder)
 
-7. [Magnitude](./Magnitude)
+7. [MAGNITUDE](./Magnitude)
 
-8. [D_Flip_Flop](./d_flip_flop)
+8. [D_FLIP_FLOP](./d_flip_flop)
 
-9. [4_bit_register](./4_bit_register)
+9. [FOUR_BIT_REGISTER](./FOUR_BIT_REGISTER)
 
 10. [ALU](./alu)
